@@ -13,7 +13,7 @@ else
   {// code for IE6, IE5
   xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
   }
-xmlhttp.open("GET","ajax_info.txt",false);
+xmlhttp.open("GET","ssh.php",false);
 xmlhttp.send();
 document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
 }
