@@ -1,0 +1,21 @@
+{
+  "name": "bgbrandongomez.github.io",
+  "homepage": "bgbrandongomez.github.io",
+  "authors": [
+    "Brandon Gomez <bgbrandongomez@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.2.0"
+  }
+}

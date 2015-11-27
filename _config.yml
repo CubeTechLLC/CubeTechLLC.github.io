@@ -1,0 +1,29 @@
+#Do note that any changes to this file _config.yml will not show up until you restart jekyll.
+
+gems:
+  #- jekyll-feed #No need for jekyll-feed when I have atom.xml in blog directory.
+  #- jekyll-redirect-from #Currently don't need it, but in the future maybe
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: post
+      title: Señor Contento's Site
+      project: bgbrandongomez.GitHub.io
+      projectid: bgbrandongomez.github.io
+      developer: SenorContento
+      description: Señor Contento's Website
+      site-url: https://senorcontento.github.io
+      project-url: https://cubetechllc.github.io
+      date: 0000-00-00 00:00:00
+      branch: master
+
+paginate_path: "/blog/page:num/"
+paginate: 5
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title #Beware that jekyll does count the number of spaces before permalink: and all other variables. Adding spaces either makes a Forbidden message show up as jekyll thinks that permalink: is part of the values: category or will make Jekyll use the default permalink instead without throwing any errors.
